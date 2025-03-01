@@ -51,6 +51,7 @@ CMD ["sh", "-c", "echo hello from $HOSTNAME"]
 docker build -t containers02 .
 ```
 
+![build](images/dockerbuild.png)
 По времени этот образ у меня на компьютере создавался 31.9 секунд.
 
 ## Запуск контейнера
